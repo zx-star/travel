@@ -1,4 +1,7 @@
-// vue.config.js
+// const path = require('path');//引入path模块
+// function resolve(dir){
+//   return path.join(__dirname,dir)//path.join(__dirname)设置绝对路径
+// }
 module.exports = {
     lintOnSave: false,
     // devServer: {
@@ -13,4 +16,14 @@ module.exports = {
     //     //   }
     //     }
     //   }
+    // resolve:{
+    //     extensions:['.js','vue','.json'],
+    //     alias:{
+    //         'vue$':'vue/dist/vue.esm/js',
+    //         '@':resolve('src'),
+    //         'styles':resolve('src/assets/styles'),
+    //     }
+    // }
+  
+
 }
